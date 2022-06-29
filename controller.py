@@ -93,8 +93,6 @@ if __name__ == "__main__":
         cmd = input("controller> ")
         if cmd == 'exit':
             break
-        elif cmd == "echo":
-            print('echooooooo')
         elif cmd == "fpath":
             fstPath = cont.getFastestPath()
             cont.setFastestPath(fstPath)
