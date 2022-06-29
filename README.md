@@ -18,9 +18,15 @@ Run `vagrant up`, this should take about 20 minutes
 
 Login with username p4 and password p4
 
-Create a new folder named `int-p4`
+Launch a terminal and install git
 
-`cd int-p4`
+`sudo apt install git`
+
+Clone this library
+
+`git clone https://github.com/QuinnRutherford/BachelorsProject`
+
+`cd BachelorsProject`
 
 Install P4-Utils
 
